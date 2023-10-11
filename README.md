@@ -1,6 +1,6 @@
-### Hi there 👋
+### Hi there 👋（10.12）
 
-I'm niina, 27 in Japannese. I'm glad to hear your call me 27, erqi in Chinese. Thanks. 
+I'm niina, 27 in Japannese. I'm glad to hear you call me 27, erqi in Chinese. Thanks. 
 
 - 🔭 I’m currently working on ASC2024.
 - 🌱 I’m currently learning ICS.
