@@ -1,12 +1,13 @@
+<a href="#">
+    <img align="right" src="https://github-readme-stats.vercel.app/api?username=irorange27&show_icons=true&theme=transparent" />
+</a>
+
 💭 **About Me**
 
 - 🏫 A college junior student
 - 🍕 Love Music, Novels
 - 🎶 Composing music with using Cubase and REAPER
 
-<a href="#">
-    <img align="right" src="https://github-readme-stats.vercel.app/api?username=irorange27&show_icons=true&theme=transparent" />
-</a>
 
 🚀 Skills
 
