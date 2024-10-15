@@ -13,6 +13,10 @@
 
 ![](https://img.shields.io/badge/-python-3e74a2?style=for-the-badge&logo=Python&logoColor=fff
 )
+![](https://img.shields.io/badge/-javascript-f0db4f?style=for-the-badge&logo=JavaScript&logoColor=fff
+)
+![](https://img.shields.io/badge/-vue3-41b883?style=for-the-badge&logo=Vue.js&logoColor=fff
+)
 ![](https://img.shields.io/badge/-docker-2496ed?style=for-the-badge&logo=Docker&logoColor=fff
 )
 ![](https://img.shields.io/badge/-linux-000000?style=for-the-badge&logo=Linux&logoColor=fff&color=000
