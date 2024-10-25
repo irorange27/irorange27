@@ -24,7 +24,7 @@
 
 😊 **Contact me**
 
-- ⌈ E-mail ⌋: [C27shu@gmail.com](C27shu@gmail.com)
+- ⌈ E-mail ⌋: `python -c 'import base64; print(base64.b64decode("QzI3c2h1QGdtYWlsLmNvbQ=="))'`
 - ⌈ Telegram ⌋: [niina_cheng](https://t.me/niina_cheng)
 
 </p>
