@@ -31,3 +31,9 @@
     <p align="center">
     <img src="https://profile-counter.glitch.me/{irorange27}/count.svg" />
 </p>
+
+💻 **Wakatime**
+
+<!--START_SECTION:waka-->
+
+<!--END_SECTION:waka-->
