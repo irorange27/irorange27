@@ -37,14 +37,14 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 10 October 2024 - To: 12 September 2025
+From: 10 October 2024 - To: 14 September 2025
 
-Total Time: 433 hrs 59 mins
+Total Time: 435 hrs 10 mins
 
-Python            280 hrs 55 mins ████████████████░░░░░░░░░   64.01 %
-Markdown          49 hrs 12 mins  ██▓░░░░░░░░░░░░░░░░░░░░░░   11.21 %
-Vue.js            28 hrs 42 mins  █▓░░░░░░░░░░░░░░░░░░░░░░░   06.54 %
-YAML              10 hrs 39 mins  ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.43 %
+Python            280 hrs 55 mins ████████████████░░░░░░░░░   63.84 %
+Markdown          50 hrs 22 mins  ███░░░░░░░░░░░░░░░░░░░░░░   11.45 %
+Vue.js            28 hrs 42 mins  █▓░░░░░░░░░░░░░░░░░░░░░░░   06.53 %
+YAML              10 hrs 39 mins  ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.42 %
 Text              10 hrs 1 min    ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.28 %
 ```
 
