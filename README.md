@@ -32,7 +32,12 @@
     <img src="https://profile-counter.glitch.me/{irorange27}/count.svg" />
 </p>
 
-💻 **Wakatime**
+💻 **My Stats**
+
+[![wakatime](https://wakatime.com/badge/user/83a1c2f1-3d1d-49d4-ab17-587d64502680.svg)](https://wakatime.com/@83a1c2f1-3d1d-49d4-ab17-587d64502680)
+
+<details>
+    <summary>Stat Details</summary>
 
 <!--START_SECTION:waka-->
 
@@ -49,3 +54,4 @@ YAML              10 hrs 39 mins  ▓░░░░░░░░░░░░░░�
 ```
 
 <!--END_SECTION:waka-->
+</details>
