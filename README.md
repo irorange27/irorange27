@@ -42,15 +42,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 09 November 2025 - To: 09 December 2025
+From: 10 November 2025 - To: 10 December 2025
 
-Total Time: 5 hrs 58 mins
+Total Time: 6 hrs 1 min
 
-TypeScript      2 hrs 1 min     ███████▓░░░░░░░░░░░░░░░░░   30.92 %
-Vue.js          1 hr 31 mins    █████▓░░░░░░░░░░░░░░░░░░░   23.14 %
-CMake           43 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   11.06 %
-Other           34 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   08.83 %
-C++             27 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.88 %
+TypeScript      2 hrs 1 min     ███████▓░░░░░░░░░░░░░░░░░   30.74 %
+Vue.js          1 hr 31 mins    █████▓░░░░░░░░░░░░░░░░░░░   22.95 %
+CMake           43 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.96 %
+Other           35 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   08.82 %
+C++             27 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.82 %
 ```
 
 <!--END_SECTION:waka-->
