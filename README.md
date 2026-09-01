@@ -42,15 +42,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 30 July 2026 - To: 29 August 2026
+From: 31 July 2026 - To: 30 August 2026
 
-Total Time: 107 hrs 2 mins
+Total Time: 102 hrs 25 mins
 
-Markdown     33 hrs 56 mins        ██████▓░░░░░░░░░░░░░░░░░░   26.77 %
-Bash         23 hrs 27 mins        ████▓░░░░░░░░░░░░░░░░░░░░   18.50 %
-Rust         23 hrs 8 mins         ████▓░░░░░░░░░░░░░░░░░░░░   18.25 %
-Other        19 hrs 46 mins        ████░░░░░░░░░░░░░░░░░░░░░   15.59 %
-Python       14 hrs 7 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   11.14 %
+Markdown     29 hrs 26 mins        ██████░░░░░░░░░░░░░░░░░░░   24.07 %
+Rust         23 hrs 58 mins        █████░░░░░░░░░░░░░░░░░░░░   19.59 %
+Bash         22 hrs 40 mins        ████▓░░░░░░░░░░░░░░░░░░░░   18.53 %
+Other        19 hrs 55 mins        ████░░░░░░░░░░░░░░░░░░░░░   16.28 %
+Python       14 hrs 1 min          ███░░░░░░░░░░░░░░░░░░░░░░   11.47 %
 ```
 
 <!--END_SECTION:waka-->
