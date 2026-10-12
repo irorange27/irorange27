@@ -16,7 +16,7 @@
 
 </p>
     <p align="center">
-    <img src="https://profile-counter.glitch.me/{irorange27}/count.svg" />
+    <img src="https://komarev.com/ghpvc/?username=irorange27&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
 </p>
 
 💻 **My Stats**
