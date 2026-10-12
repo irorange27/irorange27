@@ -21,7 +21,7 @@
 
 💻 **My Stats**
 
-[![wakatime](https://wakatime.com/badge/user/83a1c2f1-3d1d-49d4-ab17-587d64502680.svg)](https://wakatime.com/@83a1c2f1-3d1d-49d4-ab17-587d64502680)
+[![wakatime](https://wakatime.com/badge/user/83a1c2f1-3d1d-49d4-ab17-587d64502680.svg?v=2)](https://wakatime.com/@83a1c2f1-3d1d-49d4-ab17-587d64502680)
 
 <details>
     <summary>Stat Details</summary>
