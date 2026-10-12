@@ -4,9 +4,9 @@
 
 💭 **About Me**
 
-- 🏫 A college junior student
+- 🏫 A college graduate
 - 🍕 Love Music, Novels
-- 🎶 Composing music with using Cubase and REAPER
+- 🎶 Composing music with using Logic pro
 
 
 😊 **Contact me**
