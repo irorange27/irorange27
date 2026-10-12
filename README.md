@@ -14,10 +14,6 @@
 - ⌈ E-mail ⌋: `python -c 'import base64; print(base64.b64decode("QzI3c2h1QGdtYWlsLmNvbQ=="))'`
 - ⌈ Telegram ⌋: [niina_cheng](https://t.me/niina_cheng)
 
-</p>
-    <p align="center">
-    <img src="https://komarev.com/ghpvc/?username=irorange27&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
-</p>
 
 💻 **My Stats**
 
