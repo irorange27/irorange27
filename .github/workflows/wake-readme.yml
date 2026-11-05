@@ -8,15 +8,58 @@ on:
     # runs at 12 AM UTC (8:00 AM CST)
     - cron: "0 0 * * *"
 
+# waka-readme 会把统计写回 README.md，需要 contents: write。
+# 显式声明，别依赖 Settings > Actions > Workflow permissions 的默认值
+# （只读时 action 会静默提交失败）。
+permissions:
+  contents: write
+
+concurrency:
+  group: waka-readme
+  cancel-in-progress: true
+
 jobs:
   update-readme:
     name: WakaReadme DevMetrics
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+
     steps:
-        # this action name
+      # 提前验证凭据：WakaTime 的插件 API Key 是 write-only，读
+      # /v1/users/current/stats 会返回 403；这里必须是 OAuth token
+      # （https://wakatime.com/oauth）。否则 action 会重试 4 次、白等 5 分钟，
+      # 最后只留下一句没有上下文的 "Unable to fetch data"。
+      - name: preflight WakaTime credentials
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+        run: |
+          set -euo pipefail
+          # 与 action 完全一致：Basic base64(key)，而不是 curl -u（会多一个冒号）
+          auth=$(printf '%s' "$WAKATIME_API_KEY" | base64 -w0)
+          code=$(curl -sS --max-time 20 -o /tmp/waka.json -w '%{http_code}' \
+            -H "Authorization: Basic $auth" \
+            -H 'Accept: application/json' \
+            'https://wakatime.com/api/v1/users/current/stats/last_30_days')
+          case "$code" in
+            200)
+              echo "WakaTime 凭据有效"
+              ;;
+            401|403)
+              echo "::error title=WakaTime 凭据失效::返回 $code。WAKATIME_API_KEY 必须是 OAuth token（https://wakatime.com/oauth）；WakaTime 插件 API Key 是 write-only、读不了 stats。若已经是 OAuth token，说明已过期或被撤销，请重新生成并更新 Secret。"
+              cat /tmp/waka.json || true
+              exit 1
+              ;;
+            *)
+              echo "::warning::WakaTime 返回 $code（非凭据问题），继续交给 action 自己重试"
+              cat /tmp/waka.json || true
+              ;;
+          esac
+
+      # 官方明确要求 @master：v0.3.1 tag 停在 2024-05，没有包含后续修复
       - uses: athul/waka-readme@master # do NOT replace with anything else
         with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }} 
+          GH_TOKEN: ${{ github.token }}
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           TIME_RANGE: last_30_days
           ### content
           SHOW_TOTAL: true
